@@ -1,0 +1,37 @@
+[
+    {
+      "name": "Modal",
+      "schema": {
+        "title": "Modal",
+        "description": "Are you sure you are a teenager?",
+        "type": "object",
+        "required": [
+          "title",
+          "description"
+        ],
+        "properties": {
+          "title": {
+            "title": "Title",
+            "type": "string"
+          },
+          "link": {
+            "title": "Description",
+            "type": "object",
+            "required": [
+              "text"
+            ],
+            "properties": {
+              "text": {
+                "title": "Text",
+                "type": "string"
+              },
+              "description": {
+                "title": "Description",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
